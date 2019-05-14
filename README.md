@@ -1,2 +1,0 @@
-# I2C_DecommissioningRobot
-I2Cを使えるようにしましょうね
