@@ -1,4 +1,13 @@
 //////////////////////////////////////////////////////////////////https://qiita.com/iigura/items/034ef2fcf12bdb57fd63
+//0　i2cdetect -y 1　　←を実行するとaruduinoがI2Cデバイスとして機能しているか確認できる。
+//cd wiringPi←開く 
+//１　sudo ./a.out ←　プログラムの実行
+//２　アドレスが要求されるから0でみたアドレスを打つ
+//３　すきな文字をうつ（俺らの場合6bite送った　例：12beef）
+//arduino側に情報（6bite）が送られる
+
+
+
 //WiringPi を用いた Raspberry Pi 側のプログラム
 //まずは 3 バイトを送るサンプルプログラム
 //Raspberry Pi から I2C 経由でデータを送信するために、WiringPi を使用します。
